@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -129,6 +129,9 @@
   <data name="AddRemove.Title" xml:space="preserve">
     <value>Adicionar/Remover fontes de media</value>
   </data>
+  <data name="AddTo.Text" xml:space="preserve">
+    <value>Add to</value>
+  </data>
   <data name="Album.Text" xml:space="preserve">
     <value>Álbum</value>
   </data>
@@ -144,11 +147,23 @@
   <data name="Ascending.Text" xml:space="preserve">
     <value>Ascendente</value>
   </data>
+  <data name="AskDiscy.Text" xml:space="preserve">
+    <value>Ask Discy about this</value>
+  </data>
   <data name="AtAGlance.Message" xml:space="preserve">
     <value>Brevemente, esta página irá ser o lar das tuas recomendações, reproduzidas recentemente e muito mais. Esperamos apresentar este recurso brevemente, embora provavelmente não seja visto no Pre-Alfa.</value>
   </data>
   <data name="AtAGlance.Title" xml:space="preserve">
     <value>Sobre esta página</value>
+  </data>
+  <data name="BrowseMedia.Description" xml:space="preserve">
+    <value>Use a file browser to look through all of your media in your folders.</value>
+  </data>
+  <data name="BrowseMedia.Title" xml:space="preserve">
+    <value>Browse for media</value>
+  </data>
+  <data name="ChangeArtImg.Text" xml:space="preserve">
+    <value>Change artist image</value>
   </data>
   <data name="Check.Title" xml:space="preserve">
     <value>A procurar por nova media na tua biblioteca...</value>
@@ -174,6 +189,12 @@
   <data name="Delete.ToolTipService.ToolTip" xml:space="preserve">
     <value>Remover...</value>
   </data>
+  <data name="DeleteFull.Label" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DeleteFull.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Delete</value>
+  </data>
   <data name="Descending.Text" xml:space="preserve">
     <value>Descendente</value>
   </data>
@@ -182,6 +203,18 @@
   </data>
   <data name="Edit.ToolTipService.ToolTip" xml:space="preserve">
     <value>Propriedades e Informação</value>
+  </data>
+  <data name="EditArtist.Label" xml:space="preserve">
+    <value>Customise this page</value>
+  </data>
+  <data name="EditArtist.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Customise this page</value>
+  </data>
+  <data name="EditPlaylist.Label" xml:space="preserve">
+    <value>Edit playlist</value>
+  </data>
+  <data name="EditPlaylistText.Text" xml:space="preserve">
+    <value>Edit playlist</value>
   </data>
   <data name="Fdb.Text" xml:space="preserve">
     <value>Feedback</value>
@@ -201,6 +234,9 @@
   <data name="Indexing.Title" xml:space="preserve">
     <value>A adicionar media à tua biblioteca</value>
   </data>
+  <data name="Like.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Like</value>
+  </data>
   <data name="MenuBar.Text" xml:space="preserve">
     <value>Barra de Menu</value>
   </data>
@@ -210,8 +246,14 @@
   <data name="MoveDown.Text" xml:space="preserve">
     <value>Mova para baixo</value>
   </data>
+  <data name="MoveDown2.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Move down</value>
+  </data>
   <data name="MoveUp.Text" xml:space="preserve">
     <value>Mover para cima</value>
+  </data>
+  <data name="MoveUp2.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Move up</value>
   </data>
   <data name="NameOnly.Text" xml:space="preserve">
     <value>Unir álbuns com o mesmo título</value>
@@ -219,14 +261,38 @@
   <data name="NewH.Text" xml:space="preserve">
     <value>O que existe de novo nesta compilação:</value>
   </data>
+  <data name="NewPlaylist.Text" xml:space="preserve">
+    <value>New playlist</value>
+  </data>
+  <data name="NewSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
   <data name="NoNew.Title" xml:space="preserve">
     <value>Nenhuma media nova foi encontrada na tua biblioteca</value>
+  </data>
+  <data name="Notif.Text" xml:space="preserve">
+    <value>Messages &amp; reports</value>
+  </data>
+  <data name="OpenFileLocation.Text" xml:space="preserve">
+    <value>Show in File Explorer</value>
+  </data>
+  <data name="PinToSidebar.Label" xml:space="preserve">
+    <value>Pin to sidebar</value>
+  </data>
+  <data name="PinToStart.Text" xml:space="preserve">
+    <value>Pin to Start</value>
   </data>
   <data name="Play.ToolTipService.ToolTip" xml:space="preserve">
     <value>Reproduzir</value>
   </data>
   <data name="PlayItem.Text" xml:space="preserve">
     <value>Reproduzir</value>
+  </data>
+  <data name="Properties.Label" xml:space="preserve">
+    <value>Info &amp; Properties</value>
+  </data>
+  <data name="Props.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Song info</value>
   </data>
   <data name="QuickH.Text" xml:space="preserve">
     <value>Ligações rápidas</value>
@@ -237,8 +303,20 @@
   <data name="RemoveFolder.ToolTipService.ToolTip" xml:space="preserve">
     <value>Remover pasta</value>
   </data>
+  <data name="RemovePlaylist.Text" xml:space="preserve">
+    <value>Remove from playlist</value>
+  </data>
+  <data name="RemovePlaylist2.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Remove from playlist</value>
+  </data>
+  <data name="RemoveQueue.Text" xml:space="preserve">
+    <value>Remove from queue</value>
+  </data>
   <data name="RemoveSection.Text" xml:space="preserve">
     <value>Remover a secção toda</value>
+  </data>
+  <data name="RemoveThing.Text" xml:space="preserve">
+    <value>Remove...</value>
   </data>
   <data name="Scan.Text" xml:space="preserve">
     <value>Procurar por media nova</value>
@@ -249,8 +327,8 @@
   <data name="Select.ToolTipService.ToolTip" xml:space="preserve">
     <value>Selecionar</value>
   </data>
-  <data name="SelectAlbum.Text" xml:space="preserve">
-    <value>Selecionar</value>
+  <data name="SelectAlbumorSong.Text" xml:space="preserve">
+    <value>Select</value>
   </data>
   <data name="Settings.Text" xml:space="preserve">
     <value>Definições da aplicação</value>
@@ -261,17 +339,29 @@
   <data name="SetupFinalise.Title" xml:space="preserve">
     <value>A aplicar definições</value>
   </data>
+  <data name="Share.Text" xml:space="preserve">
+    <value>Share</value>
+  </data>
   <data name="ShowAlbum.Text" xml:space="preserve">
     <value>Mostrar álbum</value>
   </data>
   <data name="ShowArtist.Text" xml:space="preserve">
     <value>Mostrar atista</value>
   </data>
+  <data name="ShowinFE.Text" xml:space="preserve">
+    <value>Show in File Explorer</value>
+  </data>
+  <data name="ShowinFELabel.Label" xml:space="preserve">
+    <value>Show in File Explorer</value>
+  </data>
   <data name="Shuffle.Label" xml:space="preserve">
     <value>Aleatorizar</value>
   </data>
   <data name="ShuffleAlbum.Text" xml:space="preserve">
     <value>Aleatorizar álbum</value>
+  </data>
+  <data name="ShuffleArtist.Text" xml:space="preserve">
+    <value>Shuffle artist</value>
   </data>
   <data name="Sidebar.Text" xml:space="preserve">
     <value>Barra lateral (Clássica)</value>
@@ -284,6 +374,12 @@
   </data>
   <data name="Style.Text" xml:space="preserve">
     <value>Estilo das definições</value>
+  </data>
+  <data name="Support.Description" xml:space="preserve">
+    <value>Become a patreon and enjoy exclusive benefits and merch, while helping this project move forward.</value>
+  </data>
+  <data name="Support.Title" xml:space="preserve">
+    <value>Support development</value>
   </data>
   <data name="Title.Text" xml:space="preserve">
     <value>Título</value>

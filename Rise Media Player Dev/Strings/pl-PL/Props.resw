@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -117,11 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AlbumWindowTitle.Title" xml:space="preserve">
+    <value>Album info</value>
+  </data>
   <data name="Cancel.Content" xml:space="preserve">
     <value>Anuluj</value>
   </data>
   <data name="DetailItem.Text" xml:space="preserve">
     <value>Szczegóły</value>
+  </data>
+  <data name="DetailItemNav.Content" xml:space="preserve">
+    <value>Details</value>
   </data>
   <data name="DisabledTip.ToolTipService.ToolTip" xml:space="preserve">
     <value>Już wkrotce</value>
@@ -138,14 +144,35 @@
   <data name="FileItem.Text" xml:space="preserve">
     <value>Plik</value>
   </data>
+  <data name="FileItemNav.Content" xml:space="preserve">
+    <value>File</value>
+  </data>
   <data name="LyricsItem.Text" xml:space="preserve">
     <value>Tekst</value>
+  </data>
+  <data name="LyricsItemNav.Content" xml:space="preserve">
+    <value>Lyrics</value>
+  </data>
+  <data name="MoreItem.Text" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="PlaylistWindowTitle.Title" xml:space="preserve">
+    <value>Edit playlist</value>
   </data>
   <data name="ProfileItem.Text" xml:space="preserve">
     <value>Profil</value>
   </data>
   <data name="Save.Content" xml:space="preserve">
     <value>Zapisz zmiany</value>
+  </data>
+  <data name="SongsItem.Text" xml:space="preserve">
+    <value>Songs</value>
+  </data>
+  <data name="SongsItemNav.Content" xml:space="preserve">
+    <value>Songs</value>
+  </data>
+  <data name="StayHere" xml:space="preserve">
+    <value>oops</value>
   </data>
   <data name="WindowTitle.Title" xml:space="preserve">
     <value>Informacje o utworze</value>
